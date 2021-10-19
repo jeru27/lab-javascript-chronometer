@@ -1,7 +1,7 @@
 class Chronometer {
   constructor() {
-    currentTime = 0;
-    intervalId = null;
+    this.currentTime = 0;
+    this.intervalId = null;
     
   }
   
@@ -33,7 +33,7 @@ class Chronometer {
     }else {
       double = value.toString();
     }
-    
+  return double;  
   }
 
   stop() {
